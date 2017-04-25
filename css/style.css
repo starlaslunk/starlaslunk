@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Permanent+Marker|Rock+Salt|Walter+Turncoat|Homemade+Apple|');
+
+
+/*this is the css for the entire menu*/
+.topnav {
+    display:flex;
+    justify-content: space-around;
+    position: fixed;
+    overflow: hidden;
+    font-family: 'Walter Turncoat', cursive;
+    text-align: center;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    text-align: left;
+    padding: 10px 10px;
+    font-size: 25px;
+    margin: 30px;
+    padding: 30px;
+}
+
+.main_menu {
+    width: 150px;
+    height: 150px;
+    background-color: #E8DCB9;
+    margin: 30px;
+    padding: 30px;
+    box-shadow: 10px 10px #cbd0b9;
+}
+
+.history {
+    width: 150px;
+    height: 150px;
+    background-color: #443742;
+    margin: 30px;
+    padding: 30px;
+    box-shadow: 10px 10px #cbd0b9;
+}
+/*box was widened to fit entirety of the text*/
+.institutions {
+    width: 200px;
+    height: 150px;
+    background-color: #f4e87c; 
+    margin: 30px;
+    padding: 30px;
+    box-shadow: 10px 10px #cbd0b9;
+}
+
+.housing {
+    width: 150px;
+    height: 150px;
+    background-color: #9e7682; 
+    margin: 30px;
+    padding: 30px;
+    box-shadow: 10px 10px #cbd0b9;
+}
+
+.parks {
+    width: 150px;
+    height: 150px;
+    background-color: #a7aaa4;
+    margin: 30px;
+    padding: 30px;
+    box-shadow: 10px 10px #cbd0b9;
+}
+
+.schools {
+    width: 150px;
+    height: 150px;
+    background-color: #abc4a1; 
+    margin: 30px;
+    padding: 30px;
+    box-shadow: 10px 10px #cbd0b9;
+}
+
+a:link {
+    color: white;
+    background-color: #eb9486;
+    text-decoration: none;
+}
+a:visited {
+    color: #cbcacb;
+    background-color: #eb9486;
+    text-decoration: none;
+}
+a:hover {
+    color: #ffd23f;
+    background-color: #eb9486;
+    text-decoration: none;
+    transform: rotate(20deg);
+    transition: 1s;
+
+}
+a:active {
+    color: #807f81;
+    background-color: #eb9486;
+    text-decoration: none;
+}
+.homepagetext{
+    width:60%;
+    margin-left:35%;
+    font-family: 'Rock Salt', cursive;
+    font-size:15px;
+    margin-top:25%;
+    font-weight: bold
+}
+/*this font will be used only for the titles or headings of each page*/
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 75px;
+}
+/*the majority of the text on every page will be styled thusly...*/
+p {
+    font-family: 'Rock Salt', cursive;
+    color: antiquewhite;
+    font-size: 25px;
+    text-align: center
+}
+
+.intro {
+    padding-top: 250px;
+    font-family: 'Rock Salt', cursive;
+    text-align: center
+}
+
+.intro_pix {
+    top: 0; bottom:0; left: 0; right:0;
+    margin: auto;
+}
+/*select "one_wrap" for right, "two_wrap" for left*/
+.one_wrap {
+    float: right;
+    width:600px;
+}
+
+.two_wrap {
+    float: left;
+    width:600px;
+}
